@@ -3,7 +3,6 @@ import numpy as np
 import pandas as pd
 from datetime import datetime,timedelta
 import time,asyncio,pytz
-from env import API_KEY
 
 
 class PolyRestApi:

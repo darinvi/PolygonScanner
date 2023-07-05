@@ -4,7 +4,6 @@ from poly_rest_api import PolyRestApi as pra
 import multiprocessing as mp
 import time
 import threading
-from env import API_KEY
 
 class MultiProcessing:
 
@@ -82,6 +81,5 @@ class MultiProcessing:
             threading_process.join()
 
             
-# MultiProcessing.start_app()
+MultiProcessing.start_app()
 
-print(API_KEY())
